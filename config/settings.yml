@@ -1,0 +1,4 @@
+plugins:
+  notebook_enabled:
+    default: false
+    
