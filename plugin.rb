@@ -1,6 +1,8 @@
 #name:notebook
-#version:0.1.0
+#version:0.3.0
 enabled_site_setting :notebook_enabled
+
+register_asset 'stylesheets/notebook.css'
 
 after_initialize do
 	load File.expand_path('../app/controllers/notebook_controller.rb',__FILE__)
