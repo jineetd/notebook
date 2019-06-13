@@ -10,3 +10,11 @@
     {{ i18n 'notebook.create_note.submit_label' }}
   </button>
 </form>
+
+{{#if notes}}
+<ul>
+  {{#each notes as |note|}}
+    <li>{{ note.content }}</li>
+  {{/each}}
+</ul>
+{{/if}}

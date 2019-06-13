@@ -13,6 +13,8 @@ after_initialize do
 	Discourse::Application.routes.append do	
 		#map notebook to notebook controller's index
 		get '/notebook' => 'notebook#index'
+		get '/notes' => 'notes#index'
+		
 		put '/notes/:note_id' => 'notes#update'
 	end
 end
