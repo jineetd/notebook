@@ -1,9 +1,9 @@
 en:
   js:
     notebook:
-      title: 'Notebook'
+      title: 'Topic-organizer'
 
       create_note:
-        text_field_label: 'New note'
-        submit_label: 'Save'
+        text_field_label: 'New Pre-requisite'
+        submit_label: 'Add'
         
